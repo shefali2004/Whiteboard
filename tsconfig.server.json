@@ -1,0 +1,11 @@
+{
+    "extends":"./tsconfug.json",
+    "compilerOptions": {
+        "module": "CommonJS",
+        "outDir": "build",
+        "target": "ES2023",
+        "isolatedModules": false,
+        "noEmit": false,
+    },
+    "include": ["server"]
+}
